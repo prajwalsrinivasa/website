@@ -1,3 +1,2 @@
-FROM httpd:latest
-COPY . /var/www/html
-EXPOSE 80
+FROM httpd:2.4	
+COPY . /usr/local/apache2/htdocs/
