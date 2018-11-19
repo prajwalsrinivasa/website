@@ -6,7 +6,7 @@ node {
 
         checkout scm
     }
-    agent {
+    stage('agent') {
         dockerfile true
     }
 
